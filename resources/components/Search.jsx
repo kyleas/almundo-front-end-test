@@ -60,7 +60,6 @@ export default class Search extends React.Component {
     this._sendSearchRequest()
       .then(response => {
         let data = response.data
-        console.log(data.total)
         this.setState({
           totalResults: data.total,
           resultCount: this.state.resultCount + data.count,

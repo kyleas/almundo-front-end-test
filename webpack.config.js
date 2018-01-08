@@ -8,7 +8,7 @@ module.exports = {
     'almundo': './resources/index.js'
   },
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'public/dist'),
     filename: 'js/[name].js',
     publicPath: './public'
   },
