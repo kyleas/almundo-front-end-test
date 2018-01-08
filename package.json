@@ -1,0 +1,45 @@
+{
+  "name": "almundofrontend",
+  "version": "1.0.0",
+  "description": "Prueba front-end para Almundo",
+  "main": "app.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development concurrently \"webpack --hide-modules --watch\" \"node app.js\"",
+    "build": "cross-env NODE_ENV=production webpack --hide-modules"
+  },
+  "author": "Christian Bonilla <christianb354@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "axios": "^0.17.1",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-ejs": "^4.1.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "pg": "6.4.1",
+    "pg-hstore": "^2.3.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sequelize": "^4.29.0",
+    "sequelize-cli": "^3.2.0",
+    "yup": "^0.23.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
+}

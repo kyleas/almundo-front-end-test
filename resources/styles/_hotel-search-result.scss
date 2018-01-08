@@ -1,0 +1,44 @@
+.hotel-pricing {
+  border-top: 1px dashed #ccc;
+}
+
+.hotel-pricing .headline {
+  font-size: 13px;
+}
+
+.hotel-pricing .price {
+  color: #DF6800;
+  font-size: 32px;
+}
+
+.hotel-pricing .price .currency {
+  font-size: 20px;
+  position: relative;
+  bottom: 0.15em;
+}
+
+.hidden-content,
+.hidden-widget {
+    max-height:  0;
+    visibility:  hidden;
+    margin:  0!important;
+    transition: height 0.5s, visibility 0.1s linear 0.5s, margin 0.5s;
+}
+
+.section-content,
+.widget-body {
+    transition: height 0.5s, visibility 0s,  margin 0.5s;
+    overflow:  hidden;
+}
+
+@media (min-width: 992px) {
+  .hotel-pricing {
+    border-top: none;
+    border-left: 1px dashed #ccc;
+  }
+  .hidden-widget {
+    max-height: auto;
+    visibility: visible;
+    margin: inherit;
+  }
+}

@@ -1,0 +1,32 @@
+.bg-primary-color {
+  background: #0A3A7A !important;
+}
+
+.btn-primary {
+  background: #0A3A7A;
+  border-color: #0A3A7A;
+}
+
+.bg-white {
+  background: #FFF;
+}
+
+.text-primary {
+  color: #1179B3 !important;
+}
+
+.shadow-b {
+  -webkit-box-shadow: 0 3px 5px 1px #ccc;
+  -moz-box-shadow:    0 3px 5px 1px #ccc;
+  box-shadow:         0 3px 5px 1px #ccc;
+}
+
+body {
+  background: #F4F4F4;
+  font-family: Roboto, serif;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
